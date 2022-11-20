@@ -1,2 +1,58 @@
-@import './common';
-@import './example';
+.search-form {
+  text-align: center;
+  background: rgb(32, 89, 232);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #ffffff;
+  outline: none;
+  height: 35px;
+  width: 200px;
+  color: #05027d;
+  font-size: 16px;
+  font-family: Tahoma;
+  border-right: none;
+  padding: 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.gallery-item {
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  flex-basis: calc((100% - 60px) / 4);
+  max-width: 470px;
+}
+
+.card-image {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.info-item {
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.is-hidden {
+  display: none;
+}
